@@ -1,0 +1,33 @@
+.highlight-section-page-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+}
+.headline-section  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.headline-section img{
+    width: 40px;
+    height: 40px;
+    gap: 8px;
+    margin-bottom: 0px;
+}
+.headline-section >h2{
+    font-family: 'Arima';
+    font-size: 52px;
+    font-weight: bold;
+    color: rgba(78, 164, 135, 1);
+    margin-bottom: 0px;
+}
+
+.highlight-section-page-one > p {
+    text-align: center;
+    font-family: 'Palanquin';
+    font-weight: 500;
+    font-size: 24px;
+    max-width: 1000px; 
+}
