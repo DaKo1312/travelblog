@@ -109,8 +109,13 @@
 }
 
 .hero_slider input[type="radio"]:checked {
-    background-color: #FFD700; 
-    border-color: #FFD700;
+    background-color: rgba(241, 201, 83, 1); 
+    border-color: rgba(241, 201, 83, 1);
+    width: 35px;
+    height: 28px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px white;
+
 }
 .hero_slider_wrapper {
     position: absolute;
