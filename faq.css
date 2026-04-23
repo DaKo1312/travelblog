@@ -1,3 +1,7 @@
+#faq {
+    padding: 0 120px 0 120px;
+}
+
 .faq_head {
     display: flex;
     justify-content: center;
