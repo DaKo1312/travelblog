@@ -1,0 +1,75 @@
+#contact {
+    padding: 0 120px 0 120px;
+    text-align: center;
+}
+
+.contact_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 24px;
+    
+    img {
+        width: 36px;
+        height: 41.15px;
+    }
+    
+    h2 {
+        font-family: "Arima";
+        font-weight: bold;
+        color: #4ea487;
+        font-size: 3.25rem;
+    }    
+}
+
+.contact {
+    font-family: "Palanquin";
+    color: #54370D;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.contact-form {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 56px;
+}
+
+.row {
+    display: flex;
+    gap: 40px;
+}
+
+.field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.field.full {
+    margin-top: 20px;
+    padding-top: 64px;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #54370D;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid #54370D;
+    padding: 24px 2px;
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+    height: 70px;
+}
+
+textarea {
+    resize: none;
+}
