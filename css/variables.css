@@ -1,0 +1,9 @@
+:root {
+    /* FARBEN */
+
+    --secondary-braun: #54370d; /*für Fonts */
+    --primary-gelb: #f1c953;
+    --primary-green:#4EA487;
+
+    --main-font:'Arima';
+}
