@@ -1,0 +1,8 @@
+.video-wrapper {
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+video {
+    border-radius: 53px;
+}

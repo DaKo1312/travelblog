@@ -1,25 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: inherit;
-    position: relative;
-}
-
-.container{
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0px;
-}
-
-
 h1 {
     font-family: "Arima";
     color: var(--secondary-braun);
     font-size: 3.75rem;
 }
-
+.banner-container {
+    padding: 0px max(0px, calc(50% - 770px));
+}
 .main-banner {
     height: 547px;
     position: relative;
@@ -68,19 +54,21 @@ h1 {
     height: 160px;
     width: 160px;
     z-index: 3;
-    background-color: #4EA487;
+    background-color: #4ea487;
     position: absolute;
     top: 45%;
     left: 450px;
     border-radius: 50%;
-.spin{
-    animation: spin 10s linear infinite;
-}
-img{
-    position:absolute;
-}
+    .spin {
+        animation: spin 10s linear infinite;
+    }
+    img {
+        position: absolute;
+    }
 }
 
-@keyframes spin{
-    0%{transform:rotate(-360deg)}
+@keyframes spin {
+    0% {
+        transform: rotate(-360deg);
+    }
 }
