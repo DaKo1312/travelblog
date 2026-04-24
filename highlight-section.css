@@ -12,6 +12,7 @@
     align-items: center;
     text-align: center;
     padding-top: 84px;
+    padding-bottom: 24px;
 }
 .headline-section img{
     width: 40px;
@@ -25,15 +26,20 @@
     font-weight: bold;
     color: rgba(78, 164, 135, 1);
     margin-bottom: 0px;
+    line-height: 1.2;
+    margin-left: 8px;
 }
 
 .highlight-section-page-one > p {
     text-align: center;
     font-family: 'Palanquin';
+    color: rgba(84, 55, 13, 1);
+    line-height: 1.2;
     font-weight: 500;
     font-size: 24px;
     max-width: 1000px; 
     padding-bottom: 86px;
+    line-height: 1.2;
 }
 /*hero-slider*/
 .item_start{
@@ -105,8 +111,8 @@
     appearance: none;
     -webkit-appearance: none;
     background-color: white;
-    width: 14px;
-    height: 14px;
+    width: 28px;
+    height: 28px;
     border: 2px solid white;
     border-radius: 50%;
     cursor: pointer;
@@ -132,20 +138,20 @@
     height: 100%;
     z-index: 1; 
 }
-
-.text_box h2, 
-.text_box p {
-    background-color: rgba(255, 255, 255, 0.2); 
+.text_box_wrapper{
+background-color: rgba(255, 255, 255, 0.2); 
     backdrop-filter: blur(10px);
     color: white; 
     display: flex;                            
     text-align: left;
     flex-direction: column;
-    width: 820px;
+    width: 870px;
     height: auto;
-    padding-left: 24px;
-
+    padding-right: 24px;
+    line-height: 1.2;
+    padding-bottom: 20px;
 }
+
 
 .slide_item h2 {
     font-family:"Palanquin Dark";
@@ -153,6 +159,7 @@
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     padding: 0;
+    padding-left: 24px;
 }
 
 .slide_item p {
