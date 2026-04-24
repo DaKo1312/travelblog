@@ -49,7 +49,11 @@
     background-image: url("./assets/img/Main/header\ photo\ \(3\).png");
 }
 
-
+.hero_link{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}
 .hero_slider {
     position: relative;
     width: 100%;
