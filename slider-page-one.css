@@ -1,0 +1,10 @@
+.headline_beach >h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Arima";
+    font-weight: 600;
+    color: rgba(94, 55, 13, 1);
+    font-size: 32px;
+    padding-bottom: 64px;
+}
