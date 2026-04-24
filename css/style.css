@@ -19,10 +19,7 @@ h1 {
     color: var(--secondary-braun);
     font-size: 3.75rem;
 }
-.container{
-    padding:0;
-    width:100%
-}
+
 .main-banner {
     height: 547px;
     position: relative;
