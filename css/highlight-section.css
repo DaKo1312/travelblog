@@ -43,16 +43,16 @@
 }
 /*hero-slider*/
 .item_start{
-    background-image: url("./assets/img/Main/header\ photo.png");
+    background-image: url("../assets/img/Main/header\ photo.png");
 }
 .item_coppenhagen{
-    background-image: url("./assets/img/Main/header\ photo\ \(1\).png");
+    background-image: url("../assets/img/Main/header\ photo\ \(1\).png");
 }
 .item_pattaya{
-    background-image: url("./assets/img/Main/header\ photo\ \(2\).png");
+    background-image: url("../assets/img/Main/header\ photo\ \(2\).png");
 }
 .item_fuji{
-    background-image: url("./assets/img/Main/header\ photo\ \(3\).png");
+    background-image: url("../assets/img/Main/header\ photo\ \(3\).png");
 }
 
 .hero_link{

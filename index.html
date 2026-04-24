@@ -7,10 +7,13 @@
         <link rel="stylesheet" href="./css/variables.css" />
         <link rel="stylesheet" href="./css/style.css" />
         <link rel="stylesheet" href="./css/fonts.css" />
+        <link rel="stylesheet" href="./css/standard.css" />
         <link rel="stylesheet" href="./css/faq.css" />
-        <link rel="stylesheet" href="./css/contact.css" />
+        <link rel="stylesheet" href="./contact.css" />
         <link rel="stylesheet" href="./css/header.css" />
-        <title>Document</title>
+        <link rel="stylesheet" href="./css/highlight-section.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <title>Startseite</title>
     </head>
     <body>
         <header class="header">
@@ -31,7 +34,7 @@
             </section>
         </header>
 
-        <div class="container">
+        <div class="banner-container">
             <section class="main-banner">
                 <img
                     class="header-photo"
@@ -61,6 +64,112 @@
                 </div>
             </section>
         </div>
+
+        <section class="highlight-section-page-one">
+            <div class="headline-section">
+                <img
+                    src="./assets/icons/Article 01/rocket_launch.svg"
+                    alt="rocket_launch"
+                />
+                <h2>Highlights</h2>
+            </div>
+            <p>
+                From the vibrant cultures of Asia to the sun-drenched islands of
+                the Caribbean and the serene landscapes of Scandinavia, each
+                destination offers a distinct way to explore the world.
+            </p>
+        </section>
+        <section class="hero_slider">
+            <input
+                type="radio"
+                name="slider"
+                id="slide_start"
+                value="start"
+                checked
+            />
+            <input
+                type="radio"
+                name="slider"
+                id="slide_coppenhagen"
+                value="coppenhagen"
+            />
+            <input
+                type="radio"
+                name="slider"
+                id="slide_pattaya"
+                value="pattaya"
+            />
+            <input type="radio" name="slider" id="slide_fuji" value="fuji" />
+
+            <div class="hero_slider_wrapper">
+                <div class="slide_item item_start">
+                    <a href="article-one.html" class="hero_link">
+                        <div class="text_box_wrapper">
+                            <div class="text_box">
+                                <h2>The World’s Most Breathtaking Beaches</h2>
+                                <p>
+                                    From powder-soft white sands to dramatic
+                                    coastlines kissed by turquoise waves, these
+                                    beaches are more than destinations — they’re
+                                    feelings.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide_item item_coppenhagen">
+                    <div class="text_box_wrapper">
+                        <a href="article-two.html" class="hero_link">
+                            <div class="text_box">
+                                <h2>
+                                    Copenhagen in 3 Days: Big Experiences, Smart
+                                    Spending
+                                </h2>
+                                <p>
+                                    Discover Copenhagen, where historic charm
+                                    meets modern design, vibrant cycling culture
+                                    and waterfront living.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="slide_item item_pattaya">
+                    <div class="text_box_wrapper">
+                        <a href="article-three.html" class="hero_link">
+                            <div class="text_box">
+                                <h2>
+                                    Pattaya Pulse: Food, Sun and Neon Nights
+                                </h2>
+                                <p>
+                                    From bustling promenades to nearby islands,
+                                    the city offers an energetic and diverse
+                                    escape. Discover Pattaya City, with vibrant
+                                    nightlife and rich cultural landmarks.
+                                </p>
+                            </div></a
+                        >
+                    </div>
+                </div>
+                <div class="slide_item item_fuji">
+                    <div class="text_box_wrapper">
+                        <a href="article_03.html" class="hero_link">
+                            <div class="text_box">
+                                <h2>Mountain Fuji</h2>
+                                <p>
+                                    The most iconic mountain and an active
+                                    volcano located about 100 kilometers
+                                    southwest of Tokyo. Written with the
+                                    characters for “wealth” and “samurai,”
+                                    Fuji’s name evokes a sense of strength,
+                                    honor, and enduring prestige.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="container">
             <section id="faq" class="faq">
@@ -241,6 +350,40 @@
                     </section>
                 </form>
             </section>
+        </section>
+
+        <section class="footer-contain">
+            <div class="container">
+                <footer class="footer-bar">
+                    <div class="side-bar">
+                        <img
+                            src="./assets/icons/Article 01/copyright.svg"
+                            alt="copyright"
+                        />
+                        <p class="travel">Travel Blog 2026</p>
+                        <a href="imprint.html"> <p class="imp">Imprint</p></a>
+                        <p class="cookie">Cookie Preferences</p>
+                    </div>
+                    <div class="sozi-bar">
+                        <img
+                            src="./assets/icons/Article 01/Tiktok_icon 1.svg"
+                            alt=""
+                        />
+                        <img
+                            src="./assets/icons/Article 01/youtube.svg"
+                            alt="youtube"
+                        />
+                        <img
+                            src="./assets/icons/Article 01/facebook.svg"
+                            alt="facebook"
+                        />
+                        <img
+                            src="./assets/icons/Article 01/Instagram_logo_2016 1.svg"
+                            alt="Instagram"
+                        />
+                    </div>
+                </footer>
+            </div>
         </section>
     </body>
 </html>
