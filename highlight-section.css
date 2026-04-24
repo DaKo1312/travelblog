@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 84px;
 }
 .headline-section img{
     width: 40px;
@@ -48,10 +49,11 @@
     background-image: url("./assets/img/Main/header\ photo\ \(3\).png");
 }
 
+
 .hero_slider {
     position: relative;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1200px;
     height:650px;
     margin: 20px auto;
     display: flex;
@@ -59,7 +61,7 @@
     align-items: flex-end; 
     padding-bottom: 30px;
     overflow: hidden;
-    border-radius:0 30px 0 0; 
+    border-radius:0 60px 0 0; 
 }
 
 .slide_item {
@@ -74,7 +76,7 @@
     display: none;
     justify-items: flex-start;
     align-items: flex-start;
-    padding: 20px;
+    padding: 88px;
 }
 
 #slide_start:checked ~ .hero_slider_wrapper .item_start,
