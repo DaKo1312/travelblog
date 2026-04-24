@@ -104,6 +104,7 @@
 .hero_slider input[type="radio"] {
     appearance: none;
     -webkit-appearance: none;
+    background-color: white;
     width: 14px;
     height: 14px;
     border: 2px solid white;
@@ -142,6 +143,7 @@
     flex-direction: column;
     width: 820px;
     height: auto;
+    padding-left: 24px;
 
 }
 
