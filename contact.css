@@ -2,35 +2,34 @@
     padding: 0 120px 0 120px;
     text-align: center;
 }
-
 .contact_head {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding-bottom: 24px;
-    
+
     img {
         width: 36px;
         height: 41.15px;
     }
-    
+
     h2 {
         font-family: "Arima";
         font-weight: bold;
         color: #4ea487;
         font-size: 3.25rem;
-    }    
+    }
 }
 
 .contact {
     font-family: "Palanquin";
-    color: #54370D;
+    color: #54370d;
     font-size: 1.5rem;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
-.contact-form {
+.contact_form {
     max-width: 1100px;
     margin: 0 auto;
     padding-top: 56px;
@@ -48,7 +47,11 @@
     text-align: left;
 }
 
-.field.full {
+.field_full {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     margin-top: 20px;
     padding-top: 64px;
 }
@@ -56,20 +59,149 @@
 label {
     font-size: 1.5rem;
     margin-bottom: 8px;
-    color: #54370D;
+    color: #54370d;
 }
 
 input,
 textarea {
     border: none;
-    border-bottom: 1px solid #54370D;
-    padding: 24px 2px;
+    border-bottom: 1px solid #54370d;
+    /* padding: 24px 2px; */
     font-size: 14px;
-    background: transparent;
     outline: none;
     height: 70px;
+    font-size: 1.5rem;
+    font-family: "Arima";
+    color: #4EA487;
 }
 
 textarea {
     resize: none;
+    font-size: 1rem;
+    font-family: "Arima";
+    color: #4EA487;
 }
+
+.checkbox {
+    font-family: "Palanquin";
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    color: #54370d;
+}
+
+.checkbox input {
+    display: none;
+}
+
+.custom_box {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #54370d;
+    position: relative;
+}
+
+.text a {
+    color: #4ea487;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.text a:hover {
+    font-weight: bold;
+}
+
+.check input {
+    display: none;
+}
+
+.check {
+    padding-right: 10px;
+    top: 4px;
+    display: flex;
+    align-items: center;
+}
+
+
+.privacy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding-top: 16px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    
+    .box {
+        width: 18px;
+        height: 18px;
+        border: 2px solid #54370d;
+        display: inline-block;
+        position: relative;
+        transition: all 0.2s ease;
+    }
+
+    .button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        
+        .send_button {
+            padding: 10px 40px;
+            font-size: 24px;
+            font-family: "Arima", serif;
+            font-weight: bold;
+            color: #737373;
+            
+            background: transparent;
+            border: 2px solid #737373;
+            border-radius: 50px;
+            
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .send_button:hover {
+            border-color: #4ea487;
+            color: #f1c953;
+            text-align: center;
+            background-color: #4ea487;
+        }
+    }
+    .check:hover .box {
+        background-color: #f1c953;
+        cursor: pointer;
+    }
+    
+    .check input:checked + .box::after {
+        content: "";
+        position: absolute;
+        left: 4px;
+        bottom: 3px;
+        width: 4px;
+        height: 8px;
+        border: solid #f1c953;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+    }
+    
+    .check:hover .box::after {
+        border-color: #f4d03f;
+    }
+    
+    .check input:checked + .box {
+        background-color: #4ea487;
+        border-color: #4ea487;
+    }
+    
+    .check input:checked + .box::after {
+        border-color: #f1c953;
+    }
+}
+
+
+
+
