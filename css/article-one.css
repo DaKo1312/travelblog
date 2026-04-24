@@ -1,9 +1,71 @@
 main {
     display: flex;
     flex-direction: column;
-    padding: 128px 120px;
+    /* padding: 128px 120px; */
     gap: 80px;
 }
+
+.list_icon {
+    display: flex;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    background-color: #4EA487;
+    border-radius: 10px;
+    width: 196px;
+    height: 66px;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-12deg);
+
+    img {
+        width: 43px;
+        height: 43px;
+        padding-right: 5px;
+    }
+
+    p {
+        color: #F1C953;
+        font-family: "Palanquin";
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+}
+
+.pro_tipps {
+    max-width: 1083px;
+    height: 100%;
+    background-color: #DDEBE5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    margin: 60px auto;
+    padding: 1.5rem;
+
+    .list {
+        font-family: "Palanquin";
+        font-size: 1.5rem;
+        margin: auto;
+    }
+
+    ol {
+        padding: 1.5rem;
+        line-height: 1.2;
+    }
+
+    span {
+        color: #4EA487;
+        font-family: "Palanquin";
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
 
 .list {
     display: flex;

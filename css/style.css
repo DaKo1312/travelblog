@@ -7,10 +7,11 @@
 }
 
 .container{
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0px;
+    /* max-width: 1440px;
+    width: 100%; */
+    /* margin: 0 auto; */
+    padding: 0px max(120px, calc(50% - 770px));
+    display: flex;
 }
 
 
