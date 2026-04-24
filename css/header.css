@@ -15,6 +15,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0px 0px 0px 146px;
+    gap: 102px;
 }
 .nav-bar a {
     font-family: "arima";
