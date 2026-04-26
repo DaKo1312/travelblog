@@ -1,7 +1,7 @@
 .video-wrapper {
     display: flex;
     justify-content: center;
-    padding: 80px 0px;
+    padding-top: 80px;
 }
 
 .video {
