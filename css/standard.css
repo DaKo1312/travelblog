@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,10 @@
     position: relative;
 }
 
-.container{
-        padding: 0px max(120px, calc(50% - 720px));
+.container {
+    padding: 0px max(120px, calc(50% - 720px));
     /* width: 100%;
     margin: 0 auto; */
-
 }
 
 main {
@@ -44,7 +43,7 @@ main {
     align-items: center;
     margin: auto;
     max-width: 493px;
-    gap:48px;
+    gap: 48px;
     p {
         color: var(--secondary-braun);
         font-family: "Arima";
@@ -52,13 +51,117 @@ main {
         line-height: 1.2;
         text-align: center;
     }
-
 }
 
-
-
-.arrow{ position: absolute;
+.arrow {
+    position: absolute;
     left: 15px;
     top: 40px;
     /* transform: rotate(28deg); */
+}
+
+.card-article {
+    padding-top: 80px;
+    height: 391px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.article-text {
+    height: 391px;
+}
+.subline {
+    font-family: "Palanquin";
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(78, 164, 135, 1);
+}
+.article-text h1 {
+    font-family: "Arima";
+    font-weight: bold;
+    font-size: 64px;
+    color: rgba(241, 201, 83, 1);
+    line-height: 1.2;
+}
+
+.article-text p {
+    color: rgba(84, 55, 13, 1);
+    font-family: "Palaquin";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.article-footer {
+    width: 575px;
+    height: 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 6px;
+    top: 30px;
+}
+.article-footer .footer-text {
+    color: rgba(84, 55, 13, 1);
+    font-family: "Palaquin";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    right: 15px;
+}
+.authorcard {
+    background-color: rgba(78, 164, 135, 0.2);
+    width: 272px;
+    height: 389px;
+    border-radius: 30px;
+}
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        padding-top: 16px;
+    }
+}
+.card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    height: 171px;
+    margin: 16px;
+
+    .card-name {
+        font-family: "Arima";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .name-text {
+        font-family: "Arima";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+        padding-bottom: 12px;
+    }
+}
+.card-body-text {
+    height: 171px;
+    font-family: "Palaquin";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(84, 55, 13, 1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .container {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+        .container {
+        padding: 0 20px;
+    }
 }

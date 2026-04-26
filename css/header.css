@@ -90,3 +90,11 @@
 .con:focus {
     color: rgba(241, 201, 83, 1);
 }
+
+@media screen  and (max-width: 767px) {
+.nav-bar {display:none;}
+.header{
+    justify-content: center;
+    z-index:10;
+}
+}

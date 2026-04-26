@@ -61,3 +61,7 @@
 .travel {
     padding-left: 8px;
 }
+
+@media screen and (max-width: 767px) {
+.side-bar{display: none;}
+}

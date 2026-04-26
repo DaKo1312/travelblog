@@ -1,5 +1,5 @@
 #contact {
-    padding: 0 120px 0 120px;
+    padding: 88px 0 0 0;
     text-align: center;
 }
 .contact_head {
@@ -200,6 +200,19 @@ textarea {
     .check input:checked + .box::after {
         border-color: #f1c953;
     }
+}
+.privacywrapper{
+    display: flex;
+
+}
+@media screen and (max-width: 767px) {
+    .contact_subtitle{display:none;}
+    .contact_head{
+        h2{font-size: 2.5rem;}
+    }
+.text{font-size: 1rem;
+text-align: left;}
+
 }
 
 

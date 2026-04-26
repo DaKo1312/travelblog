@@ -72,3 +72,33 @@ h1 {
         transform: rotate(-360deg);
     }
 }
+
+@media screen and (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .banner-vector {
+        left: -100px;
+        height: 50%;
+    }
+
+    .banner-content {
+        display: none;
+    }
+
+    .turkie {
+        left: 45px;
+        top: 120px;
+    }
+    .header-photo {
+        object-position: 60%;
+        height: 100%;
+    }
+
+    .main-banner {
+        padding: 0;
+        height: 515px;
+    }
+
+}
