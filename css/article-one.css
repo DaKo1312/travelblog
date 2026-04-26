@@ -1,8 +1,103 @@
 main {
     display: flex;
     flex-direction: column;
-    /* padding: 128px 120px; */
     gap: 80px;
+}
+
+.card-article {
+    display: flex;
+    padding-top: 80px;
+    gap: 24px;
+    justify-content: space-between;
+}
+.article-text {
+    height: 391px;
+}
+.subline {
+    font-family: "Palanquin";
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(78, 164, 135, 1);
+}
+.article-text h1 {
+    font-family: "Arima";
+    font-weight: bold;
+    font-size: 64px;
+    color: rgba(241, 201, 83, 1);
+    line-height: 1.2;
+
+    span {
+        white-space: nowrap;
+    }
+}
+
+.article-text p {
+    color: rgba(84, 55, 13, 1);
+    font-family: "Palaquin";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.article-footer {
+    width: 575px;
+    height: 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 6px;
+    top: 30px;
+}
+.article-footer .footer-text {
+    color: rgba(84, 55, 13, 1);
+    font-family: "Palaquin";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    right: 15px;
+}
+.authorcard {
+    background-color: rgba(78, 164, 135, 0.2);
+    width: 272px;
+    height: 389px;
+    border-radius: 30px;
+}
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        padding-top: 16px;
+    }
+}
+.card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    height: 171px;
+    margin: 16px;
+
+    .card-name {
+        font-family: "Arima";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .name-text {
+        font-family: "Arima";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+        padding-bottom: 12px;
+    }
+}
+.card-body-text {
+    height: 171px;
+    font-family: "Palaquin";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(84, 55, 13, 1);
 }
 
 .list_icon {
@@ -12,8 +107,6 @@ main {
     left: -50px;
     background-color: #4EA487;
     border-radius: 10px;
-    width: 196px;
-    height: 66px;
     justify-content: center;
     align-items: center;
     transform: rotate(-12deg);
@@ -65,29 +158,36 @@ main {
         font-size: 1.5rem;
         font-family: "Palanquin";
         line-height: 1.2;
-        width: 1252px;
+        color: #3d3d3d;
         padding: 24px;
         margin: auto;
         justify-content: center;
+}
 
+.info_text_beach {
+        font-size: 1.5rem;
+        font-family: "Palanquin";
+        line-height: 1.2;
+        margin: auto;
+        justify-content: center;
+        color: #3d3d3d;
+
+}
+
+#list_table {
+    margin: auto;
 }
 
 .list {
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
-
-    margin: auto;
+    align-items: center;
+    justify-content: center;
     font-size: 1.5rem;
     color: #3d3d3d;
-    justify-content: center;
     line-height: 1.2;
     gap: 24px;
     font-family: "Palanquin";
-
-    ol {
-        padding: 0px 25px;
-    }
 }
 
 .share {
@@ -110,8 +210,8 @@ main {
 .button {
     display: flex;
     align-items: center;
-gap:10px;
-padding: 0px 24px;
+    gap:10px;
+    padding: 0px 24px;
     height: 48px;
     background-color: var(--primary-green);
     border-radius: 40px;
@@ -130,7 +230,7 @@ padding: 0px 24px;
 
 /* -------------------------- */
 
-.slider_articel_one{
+.slider_article_one{
     display: flex;
     flex-direction: column;
     align-items: center;
