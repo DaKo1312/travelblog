@@ -39,7 +39,8 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 24px;
-    margin: 60px auto;
+    margin: auto;
+    margin-top: 60px;
     padding: 1.5rem;
 
     .list {
@@ -61,11 +62,16 @@ main {
     }
 }
 
+.info_text {
+        font-size: 1.5rem;
+        font-family: "Palanquin";
+        line-height: 1.2;
+        width: 1252px;
+        padding: 24px;
+        margin: auto;
+        justify-content: center;
 
-
-
-
-
+}
 
 .list {
     display: flex;
