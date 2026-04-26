@@ -2,16 +2,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 188px;
+    
     height: 32px;
     gap: 16px;
 }
 .side-bar {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 509px;
-    height: 24px;
 }
 .side-bar p {
     color: rgba(255, 255, 255, 1);
@@ -24,21 +21,25 @@
     font-weight: 400;
 }
 
-
 .side-bar a {
     text-decoration: none;
+    color: rgb(255, 255, 255, 1);
+    font-family: "Palanquin";
+    padding: 0 32px 0 64px;
 }
 .side-bar .travel {
     display: flex;
     gap: 4px;
     font-size: 18px;
-    right: 40px;
+    justify-content: flex-start;
 }
 .side-bar .imp {
     font-size: 16px;
 }
-.side-bar .cookie {
-    left: 15px;
+.side-bar {
+    cookie {
+        left: 15px;
+    }
 }
 .side-bar img {
     width: 24px;
@@ -48,13 +49,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1200px;
-    height: 32px;
+    padding: 0px max(120px, calc(50%-720px));
 }
 .footer-contain {
     margin-top: 70px;
     background-color: rgba(78, 164, 135, 1);
-    width: 100%;
     height: 152px;
-    padding: 60px 120px;
+    padding: 60px 0px;
+}
+
+.travel {
+    padding-left: 8px;
 }
