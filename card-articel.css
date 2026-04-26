@@ -1,11 +1,13 @@
 .card-articel {
-    width: 1201px;
+    /* width: 1201px; */
     height: 391px;
     display: flex;
-    justify-content: center;
+    padding: 0px 120px;
+    gap: 24px;
+    justify-content: space-between;
 }
 .articel-text {
-    width: 902px;
+    /* width: 902px; */
     height: 391px;
 }
 .subline {
