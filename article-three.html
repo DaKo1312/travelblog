@@ -4,17 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="./css/variables.css" />
-        <link rel="stylesheet" href="./css/style.css" />
-        <link rel="stylesheet" href="./css/fonts.css" />
-        <link rel="stylesheet" href="./css/standard.css" />
-        <link rel="stylesheet" href="./css/article-two.css" />
-        <link rel="stylesheet" href="./css/faq.css" />
         <link rel="stylesheet" href="./css/header.css" />
-        <link rel="stylesheet" href="./css/highlight-section.css" />
         <link rel="stylesheet" href="./css/footer.css" />
+        <link rel="stylesheet" href="./css/variables.css" />
+        <link rel="stylesheet" href="./css/fonts.css" />
+        <link rel="stylesheet" href="./css/article-two.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/standard.css" />
         <link rel="stylesheet" href="./css/article-three.css" />
-        <link rel="stylesheet" href="./card-article.css" />
 
         <title>Article 03</title>
     </head>
@@ -30,9 +27,11 @@
                     </a>
                 </div>
                 <nav class="nav-bar">
-                    <a class="high" href="#highlights">Highlights</a>
-                    <a class="faq" href="#faq">FAQ</a>
-                    <a class="con" href="#contact">Contact</a>
+                    <a class="high_nav" href="index.html#highlights"
+                        >Highlights</a
+                    >
+                    <a class="faq_nav" href="index.html#faq">FAQ</a>
+                    <a class="con_nav" href="index.html#contact">Contact</a>
                 </nav>
             </section>
         </header>
@@ -42,42 +41,51 @@
                 <section class="card-article">
                     <div class="article-text">
                         <sub class="subline"
-                            >Thailand’s City That Never Sleeps</sub
+                            >Where the Ocean Meets Your Soul</sub
                         >
                         <h1>
-                            Pattaya Pulse:<br />
-                            Food, Sun and Neon Nights
+                            <span>The World&rsquo;s Most Breathtaking</span>
+                            Beaches
                         </h1>
                         <p>
                             From powder-soft white sands to dramatic coastlines
-                            kissed by turquoise waves, these beaches are more
-                            than destinations &ndash; they’re feelings.
+                            kissed by <br />
+                            turquoise waves, these beaches are more than
+                            destinations &ndash; <br />they’re feelings.
                         </p>
                         <div class="article-footer">
-                            <img
-                                class="calendar"
-                                src="./assets/icons/Article 01/calendar_month.svg"
-                                alt="calendar-icon"
-                            />
-                            <p class="footer-text">Date: 26.01.2026</p>
-                            <img
-                                class="eyeglasses"
-                                src="./assets/icons/Article 01/eyeglasses_2.svg"
-                                alt="eyeglasses-Icon"
-                            />
-                            <p class="footer-text">Reading time 6 min.</p>
-                            <img
-                                class="visibility"
-                                src="./assets/icons/Article 01/visibility.svg"
-                                alt="besucher-icon"
-                            />
-                            <p class="footer-text">Read: 164</p>
-                            <img
-                                class="article-share"
-                                src="./assets/icons/Article 01/share_green.svg"
-                                alt="share-info-icon"
-                            />
-                            <p class="footer-text">Shared: 18</p>
+                            <div class="wrap">
+                                <img
+                                    class="calendar"
+                                    src="./assets/icons/Article 01/calendar_month.svg"
+                                    alt="calendar-icon"
+                                />
+                                <p class="footer-text">Date: 26.01.2026</p>
+                            </div>
+                            <div class="wrap">
+                                <img
+                                    class="eyeglasses"
+                                    src="./assets/icons/Article 01/eyeglasses_2.svg"
+                                    alt="eyeglasses-Icon"
+                                />
+                                <p class="footer-text">Reading time 6 min.</p>
+                            </div>
+                            <div class="wrap">
+                                <img
+                                    class="visibility"
+                                    src="./assets/icons/Article 01/visibility.svg"
+                                    alt="besucher-icon"
+                                />
+                                <p class="footer-text">Read: 164</p>
+                            </div>
+                            <div class="wrap">
+                                <img
+                                    class="articel-share"
+                                    src="./assets/icons/Article 01/share_green.svg"
+                                    alt="share-info-icon"
+                                />
+                                <p class="footer-text">Shared: 18</p>
+                            </div>
                         </div>
                     </div>
                     <div class="authorcard">
@@ -213,13 +221,19 @@
             <div class="container">
                 <footer class="footer-bar">
                     <div class="side-bar">
-                        <img
-                            src="./assets/icons/Article 01/copyright.svg"
-                            alt="copyright"
-                        />
-                        <p class="travel">Travel Blog 2026</p>
-                        <a class="imp" href="imprint.html">Imprint</a>
-                        <p class="cookie">Cookie Preferences</p>
+                        <div class="copyrightwrapper">
+                            <img
+                                src="./assets/icons/Article 01/copyright.svg"
+                                alt="copyright"
+                            />
+                            <p class="travel">Travel Blog 2026</p>
+                        </div>
+                        <div class="imprintcookiereverse">
+                            <a href="imprint.html">
+                                <p class="imp">Imprint</p></a
+                            >
+                            <p class="cookie">Cookie Preferences</p>
+                        </div>
                     </div>
                     <div class="sozi-bar">
                         <a href="https://www.tiktok.com/de-DE/" target="_blank">
