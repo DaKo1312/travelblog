@@ -291,28 +291,8 @@ main {
 
 /*Responsive_Part*/
 
-@media (max-width: 1024px){
-    .gallery{
-        height: auto;
-        flex-direction: colum;
-        gap: 0;
-        overflow: visible;
-    }
+@media screen and (max-width:768px){
     .gallery .card{
-        width: 200px;
-        height: 293px;
-        margin: 0 auto;
-        transform: none;
-        display: none;
+        
     }
-    .gallery .card.active{
-        display: block;
-    }
-    .gallery:hover .card, 
-    .gallery .card:hover,
-    .gallery .card:hover~.card{
-        transform:none;
-        margin: o auto;
-    }
-
 }
