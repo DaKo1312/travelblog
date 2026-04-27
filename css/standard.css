@@ -59,7 +59,9 @@ main {
     top: 40px;
     /* transform: rotate(28deg); */
 }
-
+#Author {
+    padding: 0 0 48px 0;
+}
 .card-article {
     padding-top: 80px;
     display: flex;
@@ -83,7 +85,7 @@ main {
 
 .article-text p {
     color: rgba(84, 55, 13, 1);
-    font-family: "Palaquin";
+    font-family: "Palanquin";
     font-size: 32px;
     font-weight: 400;
     line-height: 1.2;
@@ -92,9 +94,8 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    right: 6px;
-    top: 30px;
-    gap:32px;
+    padding-top: 40px;
+    gap: 32px;
 }
 .article-footer .footer-text {
     color: rgba(84, 55, 13, 1);
@@ -149,8 +150,9 @@ main {
     font-weight: 400;
     color: rgba(84, 55, 13, 1);
 }
-.wrap{
-    display: flex; gap:24px;
+.wrap {
+    display: flex;
+    gap: 24px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
@@ -180,7 +182,7 @@ main {
     .container {
         padding: 0 20px;
     }
-.card-article {
+    .card-article {
         flex-direction: column;
         gap: 12px;
     }
@@ -188,9 +190,11 @@ main {
         flex-direction: column;
         gap: 24px;
     }
-    .article-footer{width: 100%;
-    flex-wrap:wrap;}
-    .article-footer{
+    .article-footer {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .article-footer {
         gap: 5px;
     }
 
@@ -200,5 +204,27 @@ main {
         width: 100%;
         height: 100%;
         padding: 8px;
-        margin-top: 42px;}
+        margin-top: 42px;
+    }
+
+    .subline {
+        font-family: "Palanquin";
+        font-weight: 600;
+        font-size: 20px;
+        color: rgba(78, 164, 135, 1);
+    }
+    .article-text h1 {
+        font-family: "Arima";
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(241, 201, 83, 1);
+        line-height: 1.2;
+    }
+    .article-text p {
+        color: rgba(84, 55, 13, 1);
+        font-family: "Palanquin";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
 }
