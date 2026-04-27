@@ -316,6 +316,7 @@ and (max-width:1280px){
 }
 .hero_slider input[type="radio"]:checked {
     background-color:rgba(78, 164, 135, 1);
+    -webkit-appearance: none;
     width: 40px;
     height: 22px;
     border-radius: 50px;
