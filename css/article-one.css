@@ -284,15 +284,48 @@ main {
 .gallery .card:hover~.card{
     transform: perspective(1000px) rotateY(-25deg) translateX(40px);
 }
-
+.hero_slider{
+    display: hidden;
+}
 
 /* ------------------------------------- */
 
 
 /*Responsive_Part*/
-
-@media screen and (max-width:768px){
-    .gallery .card{
-        
+@media screen and (min-width:768px) 
+and (max-width:1280px){
+    .gallery .card img {
+        object-position: center;
     }
+
+}
+@media screen and (max-width:768px){
+.gallery .card img{
+    width: 200px;
+    height: 293px;
+    overflow: visible;
+    transform: perspective(250px) 
+    rotateY(20deg) translateX(-20px);   
+}
+.hero_slider{
+    display: visable;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+.hero_slider input[type="radio"]:checked {
+    color: rgba(78, 164, 135, 1);
+    background-color:rgba(78, 164, 135, 1);
+    border-color: rgba(78, 164, 135, 1);
+    width: 40px;
+    height: 22px;
+    border-radius: 50px;
+}
+.hero_slider input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+}
 }
