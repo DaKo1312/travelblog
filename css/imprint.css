@@ -1,0 +1,55 @@
+
+
+body {
+    line-height: 1.2;
+    margin: 0;
+    background: #F1C953;
+}
+
+.container {
+    margin: 60px auto;
+
+}
+
+.imprint {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 30px;
+    border-radius: 25px;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #54370D;
+    font-size: 62px;
+}
+
+h2 {
+    color: #4EA487;
+    font-family: "Arima";
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 5px 0;
+    font-family: "Palanquin";
+    font-size: 1.2rem;
+    color: #3D3D3D;
+    line-height: 1.2;
+}
+
+.names {
+    margin-bottom: 15px;
+}
+
+.footer-bar {
+    padding: 0 120px;
+}
+
+.footer-contain {
+    padding: 0;
+    margin: 0;
+}

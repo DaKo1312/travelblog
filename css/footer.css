@@ -70,6 +70,7 @@ display: flex;
 .footermenu{
     display: none;
 }
+
 @media screen and (max-width: 767px) {
     .side-bar {
         flex-direction: column-reverse;
@@ -79,7 +80,10 @@ display: flex;
         p {
             font-size: 1rem;
         }
-        a{padding:0;}
+
+        a {
+        padding:0;
+        }
 
     }
     .sozi-bar {
@@ -117,4 +121,8 @@ flex-direction: column;
 @media screen and (max-width: 375px)
 {
 .sozi-bar{display: none;}
+
+.footermenu {
+    max-width: 375px;
+}
 }

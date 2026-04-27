@@ -23,8 +23,6 @@ main {
     font-size: 64px;
     color: rgba(241, 201, 83, 1);
     line-height: 1.2;
-
-
 }
 
 .article-text p {
@@ -34,6 +32,7 @@ main {
     font-weight: 400;
     line-height: 1.2;
 }
+
 .article-footer {
     /* width: 575px; */
     height: 19px;
@@ -43,6 +42,7 @@ main {
     right: 6px;
     top: 30px;
 }
+
 .article-footer .footer-text {
     color: rgba(84, 55, 13, 1);
     font-family: "Palaquin";
@@ -51,12 +51,14 @@ main {
     line-height: 1.2;
     right: 15px;
 }
+
 .authorcard {
     background-color: rgba(78, 164, 135, 0.2);
     /* width: 272px; */
     /* height: 389px; */
     border-radius: 30px;
 }
+
 .card-header {
     display: flex;
     flex-direction: column;
@@ -66,6 +68,7 @@ main {
         padding-top: 16px;
     }
 }
+
 .card-body {
     display: flex;
     align-items: center;
@@ -88,6 +91,7 @@ main {
         padding-bottom: 12px;
     }
 }
+
 .card-body-text {
     /* height: 171px; */
     font-family: "Palaquin";
