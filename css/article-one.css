@@ -285,7 +285,7 @@ main {
     transform: perspective(1000px) rotateY(-25deg) translateX(40px);
 }
 .hero_slider{
-    display: hidden;
+    display: none;
 }
 
 /* ------------------------------------- */
