@@ -6,13 +6,11 @@ main {
 
 .card-article {
     display: flex;
-    padding-top: 80px;
+    padding: 80px 0 0 0 ;
     gap: 24px;
     justify-content: space-between;
 }
-.article-text {
-    height: 391px;
-}
+
 .subline {
     font-family: "Palanquin";
     font-weight: 600;
@@ -37,10 +35,10 @@ main {
     line-height: 1.2;
 }
 .article-footer {
-    width: 575px;
+    /* width: 575px; */
     height: 19px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     right: 6px;
     top: 30px;
@@ -55,8 +53,8 @@ main {
 }
 .authorcard {
     background-color: rgba(78, 164, 135, 0.2);
-    width: 272px;
-    height: 389px;
+    /* width: 272px; */
+    /* height: 389px; */
     border-radius: 30px;
 }
 .card-header {
@@ -72,8 +70,8 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 240px;
-    height: 171px;
+    /* width: 240px;
+    height: 171px; */
     margin: 16px;
 
     .card-name {
@@ -91,7 +89,7 @@ main {
     }
 }
 .card-body-text {
-    height: 171px;
+    /* height: 171px; */
     font-family: "Palaquin";
     font-size: 16px;
     font-weight: 400;

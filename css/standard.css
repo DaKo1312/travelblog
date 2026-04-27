@@ -62,14 +62,11 @@ main {
 
 .card-article {
     padding-top: 80px;
-    height: 391px;
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
-.article-text {
-    height: 391px;
-}
+
 .subline {
     font-family: "Palanquin";
     font-weight: 600;
@@ -92,13 +89,12 @@ main {
     line-height: 1.2;
 }
 .article-footer {
-    width: 575px;
-    height: 19px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     right: 6px;
     top: 30px;
+    gap:32px;
 }
 .article-footer .footer-text {
     color: rgba(84, 55, 13, 1);
@@ -109,6 +105,7 @@ main {
     right: 15px;
 }
 .authorcard {
+    flex-shrink: 0;
     background-color: rgba(78, 164, 135, 0.2);
     width: 272px;
     height: 389px;
@@ -120,15 +117,15 @@ main {
     align-items: center;
 
     img {
-        padding-top: 16px;
+        padding: 16px 0 16px 0;
     }
 }
 .card-body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 240px;
-    height: 171px;
+    /* width: 240px;
+    height: 171px; */
     margin: 16px;
 
     .card-name {
@@ -146,22 +143,62 @@ main {
     }
 }
 .card-body-text {
-    height: 171px;
+    /* height: 171px; */
     font-family: "Palaquin";
     font-size: 16px;
     font-weight: 400;
     color: rgba(84, 55, 13, 1);
+}
+.wrap{
+    display: flex; gap:24px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
     .container {
         padding: 0 60px;
     }
+    .card-article {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .authorcard {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 8px;
+        margin-top: 16px;
+        img {
+            padding: 16px;
+        }
+    }
+    .card-body {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 767px) {
-
-        .container {
+    .container {
         padding: 0 20px;
     }
+.card-article {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .card-article {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .article-footer{width: 100%;
+    flex-wrap:wrap;}
+    .article-footer{
+        gap: 5px;
+    }
+
+    .authorcard {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 8px;
+        margin-top: 42px;}
 }
