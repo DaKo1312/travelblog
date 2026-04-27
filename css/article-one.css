@@ -212,7 +212,7 @@ main {
     background-color: var(--primary-green);
     border-radius: 40px;
     p{
-                color: var(--primary-gelb);
+        color: var(--primary-gelb);
         font-family: "Arima";
         font-size: 1.5rem;
     }
@@ -284,6 +284,45 @@ main {
 .gallery .card:hover~.card{
     transform: perspective(1000px) rotateY(-25deg) translateX(40px);
 }
-
+.hero_slider{
+    display: none;
+}
 
 /* ------------------------------------- */
+
+
+/*Responsive_Part*/
+@media screen and (min-width:768px) 
+and (max-width:1280px){
+    .gallery .card img {
+        object-position: center;
+    }
+
+}
+@media screen and (max-width:768px){
+.gallery .card img{
+    width: 200px;
+    height: 293px;
+    overflow: visible;
+    padding-bottom: 0;
+}
+.hero_slider{
+    display: visable;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+.hero_slider input[type="radio"]:checked {
+    background-color:rgba(78, 164, 135, 1);
+    width: 40px;
+    height: 22px;
+    border-radius: 50px;
+}
+.hero_slider input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+}
+}
