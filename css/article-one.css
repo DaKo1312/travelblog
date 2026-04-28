@@ -6,7 +6,7 @@ main {
 
 .card-article {
     display: flex;
-    padding: 80px 0 0 0 ;
+    padding: 80px 0 0 0;
     gap: 24px;
     justify-content: space-between;
 }
@@ -23,8 +23,6 @@ main {
     font-size: 64px;
     color: rgba(241, 201, 83, 1);
     line-height: 1.2;
-
-
 }
 
 .article-text p {
@@ -101,7 +99,7 @@ main {
     position: absolute;
     top: -50px;
     left: -50px;
-    background-color: #4EA487;
+    background-color: #4ea487;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -114,7 +112,7 @@ main {
     }
 
     p {
-        color: #F1C953;
+        color: #f1c953;
         font-family: "Palanquin";
         font-weight: bold;
         font-size: 1.75rem;
@@ -124,7 +122,7 @@ main {
 .pro_tipps {
     max-width: 1083px;
     height: 100%;
-    background-color: #DDEBE5;
+    background-color: #ddebe5;
     justify-content: center;
     align-items: center;
     border-radius: 24px;
@@ -143,7 +141,7 @@ main {
     }
 
     span {
-        color: #4EA487;
+        color: #4ea487;
         font-family: "Palanquin";
         font-weight: bold;
         font-size: 1.5rem;
@@ -151,23 +149,22 @@ main {
 }
 
 .info_text {
-        font-size: 1.5rem;
-        font-family: "Palanquin";
-        line-height: 1.2;
-        color: #3d3d3d;
-        padding: 24px;
-        margin: auto;
-        justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Palanquin";
+    line-height: 1.2;
+    color: #3d3d3d;
+    padding: 24px;
+    margin: auto;
+    justify-content: center;
 }
 
 .info_text_beach {
-        font-size: 1.5rem;
-        font-family: "Palanquin";
-        line-height: 1.2;
-        margin: auto;
-        justify-content: center;
-        color: #3d3d3d;
-
+    font-size: 1.5rem;
+    font-family: "Palanquin";
+    line-height: 1.2;
+    margin: auto;
+    justify-content: center;
+    color: #3d3d3d;
 }
 
 #list_table {
@@ -192,7 +189,7 @@ main {
     align-items: center;
     margin: auto;
     max-width: 493px;
-    gap:48px;
+    gap: 48px;
     p {
         color: var(--secondary-braun);
         font-family: "Arima";
@@ -200,25 +197,25 @@ main {
         line-height: 1.2;
         text-align: center;
     }
-
 }
 
 .button {
     display: flex;
     align-items: center;
-    gap:10px;
+    gap: 10px;
     padding: 0px 24px;
     height: 48px;
     background-color: var(--primary-green);
     border-radius: 40px;
-    p{
+    p {
         color: var(--primary-gelb);
         font-family: "Arima";
         font-size: 1.5rem;
     }
 }
 
-.arrow{ position: absolute;
+.arrow {
+    position: absolute;
     left: 15px;
     top: 40px;
     /* transform: rotate(28deg); */
@@ -226,24 +223,23 @@ main {
 
 /* -------------------------- */
 
-.slider_article_one{
+.slider_article_one {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-
-.headline_beach >h2{
+.headline_beach > h2 {
     text-align: center;
-    font-family:"Arima", sans-serif;
+    font-family: "Arima", sans-serif;
     font-weight: 600;
     color: rgba(94, 55, 13, 1);
     font-size: 32px;
     padding-bottom: 64px;
     line-height: 1.1;
 }
-.gallery{
+.gallery {
     max-width: 1300px;
     height: 600px;
     margin: 0 auto;
@@ -253,7 +249,7 @@ main {
     overflow: visible;
     gap: 20px;
 }
-.gallery .card{
+.gallery .card {
     width: 300px;
     height: 440px;
     border-radius: 20px;
@@ -261,87 +257,97 @@ main {
     transition: all 0.5s ease-in-out;
     z-index: 1;
     overflow: hidden;
-    transform: perspective(250px) 
-    rotateY(20deg) translateX(-20px);
+    transform: perspective(250px) rotateY(20deg) translateX(-20px);
 }
 
-
-.gallery .card img{
+.gallery .card img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: none;  
+    border: none;
 }
-.gallery:hover .card{
-    transform: perspective(1000px) rotateY(25deg) translateX(-40px);    
+.gallery:hover .card {
+    transform: perspective(1000px) rotateY(25deg) translateX(-40px);
 }
-.gallery .card:hover{
-        z-index: 10;
+.gallery .card:hover {
+    z-index: 10;
     transform: perspective(1000px) rotateY(0deg) scale(1.05);
     margin: 0 30px;
 }
-.gallery .card:hover~.card{
+.gallery .card:hover ~ .card {
     transform: perspective(1000px) rotateY(-25deg) translateX(40px);
 }
-.radio_buttons{
+.radio_buttons {
     display: none;
 }
 
 /* ------------------------------------- */
 
-
 /*Responsive_Part*/
-@media screen and (min-width:768px) 
-and (max-width:1280px){
-    .gallery .card img {
-        object-position: center;
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .gallery {
+        max-width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 360px;
+    }
+    .gallery .card {
+        width: 200px;
+        height: 293px;
+    }
+    .radio_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        gap: 5px;
+        position: absolute;
+        bottom: 0;
+    }
+    .radio_buttons input[type="radio"]:checked {
+        background-color: rgba(78, 164, 135, 1);
+        -webkit-appearance: none;
+        width: 40px;
+        height: 22px;
+    }
+    .radio_buttons input[type="radio"] {
+        width: 22px;
+        height: 22px;
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 360px;
+    }
+    .gallery .card {
+        width: 200px;
+        height: 293px;
     }
 
-}
-@media screen and (max-width:767px){
-.gallery{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 360px;
-
-
-}
-.gallery .card  {
-    width: 200px;
-    height: 293px;
-}
-
-
-.radio_buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    gap: 5px;
-    position: absolute;
-    bottom: 0;
-}
-.radio_buttons input[type="radio"]:checked{
-    background-color: rgba(78, 164, 135, 1);
-    -webkit-appearance: none;
-    width: 40px;
-    height: 22px;
-}
-.radio_buttons input[type="radio"]{
-    width: 22px;
-    height: 22px;
-    border-radius: 50px;
-}
-
-#slide_one:checked ~ #card_fish,
-#slide_two:checked ~ #card_beach,
-#slide_three:checked ~ #card_beach_two,
-#slide_four:checked ~ #card_beach_three,
-#slide_five:checked ~ #beach_four{
-    display: flex;
-    width: 200px;
-    height: auto;
-}
+    .radio_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        gap: 5px;
+        position: absolute;
+        bottom: 0;
+    }
+    .radio_buttons input[type="radio"]:checked {
+        background-color: rgba(78, 164, 135, 1);
+        -webkit-appearance: none;
+        width: 40px;
+        height: 22px;
+    }
+    .radio_buttons input[type="radio"] {
+        width: 22px;
+        height: 22px;
+        border-radius: 50px;
+    }
 }
