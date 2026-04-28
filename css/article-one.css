@@ -303,8 +303,8 @@ and (max-width:1280px){
 .gallery{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: auto;
+    align-items: flex-start;
+    height: 360px;
 
 
 }
@@ -320,7 +320,8 @@ and (max-width:1280px){
     align-items: center;
     padding-top: 20px;
     gap: 5px;
-
+    position: absolute;
+    bottom: 0;
 }
 .radio_buttons input[type="radio"]:checked{
     background-color: rgba(78, 164, 135, 1);
@@ -334,4 +335,13 @@ and (max-width:1280px){
     border-radius: 50px;
 }
 
+#slide_one:checked ~ #card_fish,
+#slide_two:checked ~ #card_beach,
+#slide_three:checked ~ #card_beach_two,
+#slide_four:checked ~ #card_beach_three,
+#slide_five:checked ~ #beach_four{
+    display: flex;
+    width: 200px;
+    height: auto;
+}
 }
