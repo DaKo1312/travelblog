@@ -284,7 +284,7 @@ main {
 .gallery .card:hover~.card{
     transform: perspective(1000px) rotateY(-25deg) translateX(40px);
 }
-.hero_slider{
+.radio_buttons{
     display: none;
 }
 
@@ -299,30 +299,42 @@ and (max-width:1280px){
     }
 
 }
-@media screen and (max-width:768px){
-.gallery .card img{
-    width: 200px;
-    height: 293px;
-    overflow: visible;
-    padding-bottom: 0;
-}
-.hero_slider{
-    display: visable;
+@media screen and (max-width:767px){
+.gallery{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    
+
+
 }
-.hero_slider input[type="radio"]:checked {
-    background-color:rgba(78, 164, 135, 1);
+.gallery .card  {
+    width: 200px;
+    height: 293px;
+}
+
+
+.radio_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.radio_buttons input[types="radio"]:checked{
+    background-color: rgba(78, 164, 135, 1);
+    -webkit-appearance: none;
     width: 40px;
     height: 22px;
     border-radius: 50px;
 }
-.hero_slider input[type="radio"] {
+.radio_buttons input[type="radio"]{
     width: 22px;
     height: 22px;
     border-radius: 50px;
 }
+#slider_one:checked ~ #card_one
+#slider_two:checked ~ #card_two
+#slider_three:checked ~ #card_three
+#slider_four:checked ~ #card_four
+#slider_five:checked ~ #card_five
+
 }
