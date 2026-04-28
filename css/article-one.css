@@ -284,7 +284,7 @@ main {
 .gallery .card:hover~.card{
     transform: perspective(1000px) rotateY(-25deg) translateX(40px);
 }
-.hero_slider{
+.radio_buttons{
     display: none;
 }
 
@@ -300,13 +300,15 @@ and (max-width:1280px){
 
 }
 @media screen and (max-width:768px){
-
+.gallery{
+    width: 200px;
+    height: 293px;
+    margin: 0;
+}
 .gallery .card img{
     display: flex;
     align-items: center;
     object-position: center;
-    width: 200px;
-    height: 293px;
     padding-bottom: 0;
 }
 .gallery .card{
@@ -335,9 +337,9 @@ and (max-width:1280px){
 }
 }
 
-#slide_start:checked~#card_one, 
+#slide_start:checked ~ #card_one, 
 #slide_two:checked~#card_two,
 #slide_three:checked~#card_three,
-#slide_four:checked~#card_four{
-    display: flex;
+#slide_four:checked~#card_four {
+    display: block;
 }
