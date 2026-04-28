@@ -130,6 +130,10 @@ h1 {
     background-image: url("../assets/img/Main/header\ photo\ \(3\).png");
 }
 
+.radio_button {
+    padding: 8px;
+}
+
 .hero_link {
     text-decoration: none;
     color: inherit;
@@ -149,6 +153,7 @@ h1 {
     border-radius: 0 60px 0 0;
 }
 .slide_item {
+    text-decoration: none;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,6 +166,7 @@ h1 {
     justify-items: flex-start;
     align-items: flex-start;
     padding: 88px;
+    cursor: pointer;
 }
 
 #slide_start:checked ~ .hero_slider_wrapper .item_start,
@@ -188,9 +194,17 @@ h1 {
     border: 2px solid white;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 20;
-    margin: 0 8px;
+    z-index: 3;
+    margin: 8px;
     transition: 0.3s;
+}
+
+.slider_pad {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    z-index: 2;
 }
 
 .hero_slider input[type="radio"]:checked {
@@ -209,6 +223,7 @@ h1 {
     height: 100%;
     z-index: 1;
 }
+
 .text_box_wrapper {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
@@ -276,6 +291,7 @@ h1 {
         padding-top: 80px;
     }
     .text_box{
+
         h2 {
             font-size: 1.75rem;
         }
