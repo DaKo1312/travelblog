@@ -304,6 +304,7 @@ and (max-width:1280px){
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
 
 
 }
@@ -317,24 +318,20 @@ and (max-width:1280px){
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    gap: 5px;
 
 }
-.radio_buttons input[types="radio"]:checked{
+.radio_buttons input[type="radio"]:checked{
     background-color: rgba(78, 164, 135, 1);
     -webkit-appearance: none;
     width: 40px;
     height: 22px;
-    border-radius: 50px;
 }
 .radio_buttons input[type="radio"]{
     width: 22px;
     height: 22px;
     border-radius: 50px;
 }
-#slider_one:checked ~ #card_one
-#slider_two:checked ~ #card_two
-#slider_three:checked ~ #card_three
-#slider_four:checked ~ #card_four
-#slider_five:checked ~ #card_five
 
 }
